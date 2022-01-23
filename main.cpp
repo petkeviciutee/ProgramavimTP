@@ -8,17 +8,6 @@ int main()
     std::string::size_type IlgiausiasVardas = 0,
         IlgiausiaPavarde = 0;
     
-
-
-    int a;
-    std::cout << "Jeigu norite naudoti jau sugeneruotus failus spauskite 1, bet jei norite generuoti is naujo spauskite 0\n";
-    label: std::cin >> a;
-    if (a == 0) for (std::size_t i = 100; i != 10000; i *= 10)
-        {
-            studentas.clear();
-            Generavimas(i);
-        }
-      else if (a != 0 and a != 1) { std::cout << Error; goto label; }
         for (std::size_t i = 100; i != 10000; i *= 10)
         {
 
