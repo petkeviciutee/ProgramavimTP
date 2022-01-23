@@ -1,4 +1,4 @@
-#include "bibltka.h"
+#include "class.h"
 
 int main()
 {
