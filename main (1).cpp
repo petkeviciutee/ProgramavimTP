@@ -3,23 +3,18 @@
 int main()
 {
     std::chrono::steady_clock sc;		
-    string EntryChoice;
-    int Entry;
     int t, p;				
     vector <Studentas> Stud, Vargsiukai, Protingi;
     
-  int a;
- cout << "Jeigu norite naudoti jau sugeneruotus failus spauskite 1, bet jei norite generuoti is naujo spauskite 0\n";
-  label:
-cin >> a;
-    for (int i = 0; i < 1; i++)
-     {
-        if (a == 0)
-                {
-
-     cout << "\nKaip norite apskaiciuoti studentu galutini pazymi?\nSpauskite:"
-        "\n1. Jei norite, jog butu naudojamas studento namu darbu rezultatu vidurkis"
-       "\n2. Jei norite, jog butu naudojama mediana. " << endl;
+    int a;
+    cout << "Jeigu norite naudoti jau sugeneruotus failus spauskite 1, bet jei norite generuoti is naujo spauskite 0\n";
+    label:
+    cin >> a;
+         for (int i = 0; i < 1; i++) {
+         if (a == 0) {
+            cout << "\nKaip norite apskaiciuoti studentu galutini pazymi?\nSpauskite:"
+             "\n1. Jei norite, jog butu naudojamas studento namu darbu rezultatu vidurkis"
+             "\n2. Jei norite, jog butu naudojama mediana. " << endl;
                     int FMChoice;
                     string Entry2;
 
